@@ -14,6 +14,7 @@ JQuery
 Javascript
 Local Storage
 XML
+AJAX
 
 Plug-in:
 ========
