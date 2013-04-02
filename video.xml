@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<videos>
+  <video videowidth="640" videoheight="360" videofile="invincible" videocaption="Invincible" thumb="invincible">Invincible</video>
+	<video videowidth="640" videoheight="360" videofile="the-first-time" videocaption="The First Time" thumb="first-time">The First Time</video>
+	<video videowidth="480" videoheight="270" videofile="tick-tock" videocaption="Tick Tock" thumb="tick-tock">Tick Tock</video>
+	<video videowidth="480" videoheight="270" videofile="weight-of-the-world" videocaption="Weight of the World" thumb="weight-of-the-world">Weight of the World</video>
+	<video videowidth="480" videoheight="270" videofile="if-she-knew" videocaption="If She Knew" thumb="if-she-knew">If She Knew</video>
+	<video videowidth="480" videoheight="360" videofile="time-to-grow" videocaption="Time to Grow" thumb="time-to-grow">Time to Grow</video>
+	<video videowidth="480" videoheight="360" videofile="it_s-not-that-easy" videocaption="Its not that Easy" thumb="not-that-easy">Its not that Easy</video>
+	<video videowidth="480" videoheight="270" videofile="someone-should-tell-you" videocaption="Someone Should Tell You" thumb="someone-should-tell-you">Someone Should Tell You</video>
+	<video videowidth="480" videoheight="360" videofile="if_there_s-any-justice" videocaption="If there is any justice in the world" thumb="justice-in-the-world">If there is any justice in the world</video>	<video videowidth="480" videoheight="360" videofile="another-day" videocaption="Another Day" thumb="another-day">Another Day</video>
+</videos>
