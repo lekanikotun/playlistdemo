@@ -1,24 +1,30 @@
 <!doctype html>
 <html lang="en">
-  <head>
+	<head>
 		<meta charset="utf-8"/>
+		<meta name="description" content="" />
+		<meta name="author" content="lekanikotun" />
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
 		<title>Media Intellects Inc.</title>
 		<link rel="stylesheet" href="css/ie.css" type="text/css"/>
-		<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-		<link rel="stylesheet" href="js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />		
+		<link rel="stylesheet" type="text/css" href="css/screen_styles.css"/>		
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width:480px)" href="css/style_small.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:768px)" href="css/style_medium.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width:769px)"  href="css/style_large.css"media="all" />		
+		<link rel="stylesheet" href="js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="all" />		
 	</head>
 	<body>
-		<div id="social-links">
+		<nav id="social-links">
 			<ul>
-				<li><a href="#"><img width="60" src="images/icons/facebook.png" /></a></li>
-				<li><a href="#"><img width="60" src="images/icons/twitter.png" /></a></li>
-				<li><a href="#"><img width="60" src="images/icons/linkedin.png" /></a></li>
-				<li><a href="#"><img width="60" src="images/icons/youtube.png" /></a></li>
+				<li><a href="#"><img src="images/icons/facebook.png" /></a></li>
+				<li><a href="#"><img src="images/icons/twitter.png" /></a></li>
+				<li><a href="#"><img src="images/icons/linkedin.png" /></a></li>
+				<li><a href="#"><img src="images/icons/youtube.png" /></a></li>
 			</ul>				
-		</div>
+		</nav>
 		<div class="clear_both"></div>
-		<div id="main">
+		<section id="main">
 			<div id="header">
 				<div id="logo"><a href="index.html"><img src="images/media-intellects-logo.png" /></a></div>
 				<div id="nav">
@@ -26,17 +32,25 @@
 						<p id="nameBox">Welcome, <span class='guestname'></span>! <span id='changename'>(change)</span></p>
 						<p id="register">Login or register?</p>
 					</div>
-					<div class="clear_both"></div>					
+					<div class="clear_both"></div>
+					<ul>
+						<li><a href="#">HOME</a></li>			
+						<li><a href="#">ABOUT</a></li>			
+						<li><a href="#">SOLUTIONS</a></li>			
+						<li><a href="#" class="active">VIDEOS</a></li>			
+						<li style="margin-right: 0;"><a href="#">CONTACT</a></li>			
+					</ul>
+					<div class="clear_both"></div>
 				</div>
 			</div>
 			<div class="clear_both"></div>	
-		</div>
+		</section>
 		
-		<div class="video_gallery_container">
+		<section class="video_gallery_container">
 			<div class="clear_both"></div>
-		</div>
+		</section>
 		
-		<div class="container">
+		<section class="container">
 			<h1>Contact Form</h1>
 			<div id="contactform">			
 				<form id="form1">
@@ -56,7 +70,7 @@
 							</fieldset>
 							<fieldset>
 								<label id="lblmsg" class="required" for="message">Your Message:</label>
-								<textarea id="message" cols="40" name="message" rows="10" style="width: 400px;"></textarea>
+								<textarea id="message" cols="40" name="message" rows="10"></textarea>
 							</fieldset>				
 							<fieldset>							
 								<input type="submit" value="Submit" name="submit1" /><input type="reset" value="Reset Form" name="submit2" />
@@ -65,12 +79,12 @@
 					</div>
 					</form>
 				</div>				
-			</div>		
+			</section>		
 		
-		<div id="footer">
+		<footer id="footer">
 			<p>Media Intellects Inc. &copy; 2012. All rights reserved.</p>
-		</div>
-
+		</footer>
+		
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery-1.8.0.min.js"></script>		
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.js"></script>		
 		<script type="text/javascript" src="js/com_mediaintellects.js"></script>		
@@ -79,5 +93,4 @@
 		<script type="text/javascript" src="js/videoscript.js"></script>		
 		<script type="text/javascript" src="js/formvalidate.js"></script>
 	</body>
-
 </html>
