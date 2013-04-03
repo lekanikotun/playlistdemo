@@ -1,4 +1,4 @@
-//validates form on http://www.mediaintellects.com/demo/playlist/index.html
+//validates form at http://www.mediaintellects.com/demo/playlist/index.html
 var focusElementStyle = "2px solid #FF0000";
 var unFocusElementStyle = "2px solid #FFCCCC";
 var focusBackColor = "#ccc";
@@ -6,7 +6,7 @@ var reEmail = /^[\w\.=-]+\@[\w\.-]+\.[a-z]{2,4}$/;
 var invalidFields = 0;
 
 function getLabelByID(idStr) {
-  var formLabels = document.getElementsByTagName('label');
+	var formLabels = document.getElementsByTagName('label');
 	var attrName = document.all ? "htmlFor" : "for";
 	for (var i = 0; i < formLabels.length; i++) {
 		if (formLabels[i].getAttribute(attrName) == idStr)
@@ -142,7 +142,7 @@ function initFormElements(sValidElems) {
 	}, false);
 	com_mediaintellects.EVENTS.addEventHandler(document.getElementById('form1'), 'submit', validateAllFields, false);
 	/* add the default focus handler */
-	document.getElementsByTagName('input')[0].focus();
+	/** document.getElementsByTagName('input')[0].focus(); */
 	/* add the event handlers for validation */
 	com_mediaintellects.EVENTS.addEventHandler(document.forms[0].fname, 'blur', validateFullname, false);
 	com_mediaintellects.EVENTS.addEventHandler(document.forms[0].email, 'blur', validateAddress, false);
